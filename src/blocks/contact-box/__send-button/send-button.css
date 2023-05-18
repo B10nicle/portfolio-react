@@ -1,0 +1,20 @@
+.send-button {
+  background-color: #ef744b;
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  color: #ffffff;
+  transition: 0.3s;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  width: 100%;
+}
+
+.send-button:hover {
+  background-color: #e06137;
+}
+
+.send-button:active {
+  background-color: #a9a9a9;
+  color: #808080;
+}

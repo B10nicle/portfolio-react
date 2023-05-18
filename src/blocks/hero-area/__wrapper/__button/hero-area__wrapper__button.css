@@ -1,0 +1,50 @@
+.hero-area__wrapper__button {
+  background-color: #ef744b;
+  justify-content: center;
+  border-radius: 30px;
+  text-align: center;
+  font-weight: 300;
+  margin-top: 20px;
+  font-size: 30px;
+  display: flex;
+  width: 200px;
+  height: 55px;
+}
+
+.hero-area__wrapper__button:active {
+  background-color: #a9a9a9;
+  color: #808080;
+}
+
+@media screen and (max-width: 1023px) {
+  .hero-area__wrapper__button {
+    font-size: 20px;
+    width: 150px;
+    height: 45px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .hero-area__wrapper__button {
+    margin-top: 0px;
+    font-size: 15px;
+    width: 100px;
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hero-area__wrapper__button {
+    font-size: 13px;
+    height: 30px;
+    width: 90px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .hero-area__wrapper__button {
+    font-size: 12px;
+    height: 26px;
+    width: 70px;
+  }
+}

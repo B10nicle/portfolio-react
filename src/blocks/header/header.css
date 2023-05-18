@@ -1,0 +1,11 @@
+.header {
+  justify-content: space-between;
+  display: flex;
+}
+
+@media only screen and (max-width: 500px) {
+  .header {
+    background-color: #2b2c38;
+    padding-top: 8px;
+  }
+}

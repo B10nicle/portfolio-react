@@ -1,0 +1,20 @@
+.contact-box__field {
+  background-color: rgba(230, 230, 230, 0.6);
+  border: 2px solid rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+  padding: 0.5rem 1rem;
+  margin-bottom: 22px;
+  font-size: 1.1rem;
+  transition: 0.3s;
+  outline: none;
+  width: 100%;
+}
+
+.contact-box__field:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.contact-box__field:focus {
+  border: 2px solid rgba(30, 85, 250, 0.47);
+  background-color: #ffffff;
+}

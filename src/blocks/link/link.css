@@ -1,0 +1,8 @@
+.link {
+  justify-content: center;
+  flex-direction: column;
+  text-decoration: none;
+  align-items: center;
+  color: #ffffff;
+  display: flex;
+}

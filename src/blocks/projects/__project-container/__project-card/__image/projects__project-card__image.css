@@ -1,0 +1,9 @@
+.projects__project-card__image {
+  border: 1px solid #000000;
+  margin-bottom: 30px;
+  border-radius: 5%;
+  object-fit: cover;
+  margin-top: 25px;
+  height: 250px;
+  width: 250px;
+}

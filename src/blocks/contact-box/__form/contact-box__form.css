@@ -1,0 +1,28 @@
+.contact-box__form {
+  box-sizing: border-box;
+  padding: 25px 40px;
+}
+
+@media screen and (max-width: 1023px) {
+  .contact-box__form {
+    padding: 20px 35px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .contact-box__form {
+    padding: 15px 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contact-box__form {
+    padding: 15px 25px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .contact-box__form {
+    padding: 15px 10px;
+  }
+}

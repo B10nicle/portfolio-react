@@ -1,0 +1,31 @@
+.subsection {
+  justify-content: space-around;
+  background-color: #dbdbdb;
+  display: flex;
+  padding: 80px;
+}
+
+@media screen and (max-width: 1023px) {
+  .subsection {
+    padding: 60px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .subsection {
+    padding: 40px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .subsection {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .subsection {
+    padding: 10px;
+
+  }
+}

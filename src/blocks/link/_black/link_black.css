@@ -1,0 +1,9 @@
+.link_black {
+  justify-content: center;
+  flex-direction: column;
+  text-decoration: none;
+  align-items: center;
+  color: #000000;
+  display: flex;
+  flex: 1;
+}

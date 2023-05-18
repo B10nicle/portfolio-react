@@ -1,0 +1,15 @@
+.header__navigation-button {
+  display: none;
+}
+
+@media only screen and (max-width: 500px) {
+  .header__navigation-button {
+    background-color: transparent;
+    align-self: flex-end;
+    color: #ffffff;
+    font-size: 30px;
+    display: block;
+    margin: 20px;
+    border: 0;
+  }
+}

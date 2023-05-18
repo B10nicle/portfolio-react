@@ -1,0 +1,28 @@
+.hero-area__wrapper__name {
+  font-size: 90px;
+  margin: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .hero-area__wrapper__name {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .hero-area__wrapper__name {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hero-area__wrapper__name {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .hero-area__wrapper__name {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,10 @@
+.locale_active {
+  background-image: url("../../../images/gb-flag.png");
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  border: 0;
+}

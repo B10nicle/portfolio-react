@@ -1,0 +1,14 @@
+.projects__project-card {
+  box-shadow: 5px 5px 20px rgb(197, 195, 195);
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 5%;
+  height: 500px;
+  display: flex;
+  width: 300px;
+  margin: 10px;
+}
+
+.projects__project-card:hover {
+  box-shadow: 5px 5px 20px rgba(48, 48, 48, 0.7);
+}

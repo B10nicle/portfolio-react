@@ -1,13 +1,81 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url(../src/vendor/normalize.css);
+@import url(../src/vendor/fonts/fonts.css);
+@import url(../src/blocks/html/html.css);
+@import url(../src/blocks/main/main.css);
+@import url(../src/blocks/page/page.css);
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+/* hero */
+@import url(../src/blocks/hero/hero.css);
+
+/* opacity */
+@import url(../src/blocks/opacity/opacity.css);
+
+/* header */
+@import url(../src/blocks/header/header.css);
+@import url(../src/blocks/header/__logo/header__logo.css);
+@import url(../src/blocks/header/__navigation-list/header__navigation-list.css);
+@import url(../src/blocks/header/__navigation-button/header__navigation-button.css);
+
+/* hero-area */
+@import url(../src/blocks/hero-area/hero-area.css);
+@import url(../src/blocks/hero-area/__wrapper/hero-area__wrapper.css);
+@import url(../src/blocks/hero-area/__wrapper/__name/hero-area__wrapper__name.css);
+@import url(../src/blocks/hero-area/__wrapper/__button/hero-area__wrapper__button.css);
+@import url(../src/blocks/hero-area/__wrapper/__profession/hero-area__wrapper__profession.css);
+
+/* socials */
+@import url(../src/blocks/socials/socials.css);
+@import url(../src/blocks/socials/__social/socials__social.css);
+
+/* subsection */
+@import url(../src/blocks/subsection/subsection.css);
+@import url(../src/blocks/subsection/__information/__title/subsection__information__title.css);
+@import url(../src/blocks/subsection/__information/__subtitle/subsection__information__subtitle.css);
+@import url(../src/blocks/subsection/__headshot-container/subsection__headshot-container.css);
+@import url(../src/blocks/subsection/__headshot-container/__headshot/subsection__headshot-container__headshot.css);
+
+/* title */
+@import url(../src/blocks/title/title.css);
+
+/* link */
+@import url(../src/blocks/link/link.css);
+@import url(../src/blocks/link/_black/link_black.css);
+
+/* projects */
+@import url(../src/blocks/projects/projects__template.css);
+@import url(../src/blocks/projects/__project-container/projects__project-container.css);
+@import url(../src/blocks/projects/__project-container/__project-card/projects__project-card.css);
+@import url(../src/blocks/projects/__project-container/__project-card/__image/projects__project-card__image.css);
+@import url(../src/blocks/projects/__project-container/__project-card/__title/projects__project-card__title.css);
+@import url(../src/blocks/projects/__project-container/__project-card/__subtitle/projects__project-card__subtitle.css);
+
+/* certificates */
+@import url(../src/blocks/certificates/certificates__template.css);
+@import url(../src/blocks/certificates/__grid/certificates__grid.css);
+@import url(../src/blocks/certificates/__grid/__item/certificates__grid__item.css);
+
+/* footer */
+@import url(../src/blocks/footer/footer.css);
+
+/* contact-box */
+@import url(../src/blocks/contact-box/contact-box.css);
+@import url(../src/blocks/contact-box/__send-button/send-button.css);
+@import url(../src/blocks/contact-box/__image/contact-box__image.css);
+@import url(../src/blocks/contact-box/__form/__title/contact-box__form__title.css);
+@import url(../src/blocks/contact-box/__form/contact-box__form.css);
+@import url(../src/blocks/contact-box/__form/__field/contact-box__field.css);
+@import url(../src/blocks/contact-box/__form/__field/_type/contact-box__field_type_message.css);
+
+/* popup */
+@import url(../src/blocks/popup/popup.css);
+@import url(../src/blocks/popup/_opened/popup_opened.css);
+@import url(../src/blocks/popup/__container/popup__container.css);
+@import url(../src/blocks/popup/__container/__close-button/popup__container__close-button.css);
+@import url(../src/blocks/popup/__container/__title/popup__container__title.css);
+@import url(../src/blocks/popup/__container/__subtitle/popup__container__subtitle.css);
+@import url(../src/blocks/popup/__container/__cows/popup__container__cows.css);
+@import url(../src/blocks/popup/__container/__wrapper/popup__container__wrapper.css);
+
+/* locale */
+@import url(../src/blocks/locale/locale.css);
+@import url(../src/blocks/locale/_active/locale_active.css);

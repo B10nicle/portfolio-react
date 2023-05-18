@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./Poppins-Light.woff") format("woff"),
+    url("./Poppins-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./Poppins-Regular.woff") format("woff"),
+    url("./Poppins-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./Poppins-SemiBold.woff") format("woff"),
+    url("./Poppins-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./Poppins-Bold.woff") format("woff"),
+    url("./Poppins-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("./Poppins-ExtraBold.woff") format("woff"),
+    url("./Poppins-ExtraBold.woff2") format("woff2");
+}
+
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./Montserrat-Light.woff") format("woff"),
+    url("./Montserrat-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./Montserrat-Regular.woff") format("woff"),
+    url("./Montserrat-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./Montserrat-SemiBold.woff") format("woff"),
+    url("./Montserrat-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./Montserrat-Bold.woff") format("woff"),
+    url("./Montserrat-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("./Montserrat-ExtraBold.woff") format("woff"),
+    url("./Montserrat-ExtraBold.woff2") format("woff2");
+}

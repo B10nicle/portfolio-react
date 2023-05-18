@@ -1,0 +1,29 @@
+.certificates__grid {
+  padding: 0;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  box-sizing: border-box;
+  list-style-type: none;
+  margin: 0 0 30px;
+  display: grid;
+  width: 100%;
+  gap: 30px;
+}
+
+@media screen and (max-width: 1023px) {
+  .certificates__grid {
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 20px;
+    padding: 0 24px;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .certificates__grid {
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 12px;
+    padding: 0 16px;
+    gap: 12px;
+  }
+}

@@ -1,0 +1,33 @@
+.contact-box {
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 60px;
+  margin-left: 60px;
+  max-width: 1050px;
+  display: grid;
+  z-index: 1;
+}
+
+@media screen and (max-width: 880px) {
+  .contact-box {
+    grid-template-columns: 1fr;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contact-box {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .contact-box {
+    margin: 0;
+  }
+}

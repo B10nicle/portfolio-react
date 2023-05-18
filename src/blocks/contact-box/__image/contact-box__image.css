@@ -1,0 +1,6 @@
+.contact-box__image {
+  background: url("../../../images/contact-box__image.jpeg") no-repeat center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
