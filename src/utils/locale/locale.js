@@ -18,30 +18,29 @@ export function locale() {
   const contactBoxMessage = document.querySelector(".contact-box__field_type_message");
   const sendButton = document.querySelector(".send-button");
 
-  locale.addEventListener("click", () => {
-    if (locale.classList.contains("locale_active")) {
-      locale.lang = "en";
-      locale.classList.remove("locale_active");
-    } else {
-      locale.classList.add("locale_active");
-      locale.lang = "ru";
-    }
-    const lang = locale.getAttribute("lang");
+  if (locale.classList.contains("locale_active")) {
+    locale.lang = "en";
+    locale.classList.remove("locale_active");
 
-    projects.textContent = ruEn[lang].projects;
-    certificates.textContent = ruEn[lang].certificates;
-    title.textContent = ruEn[lang].title;
-    name.textContent = ruEn[lang].name;
-    profession.textContent = ruEn[lang].profession;
-    aboutMe.textContent = ruEn[lang].about_me;
-    aboutMe2.textContent = ruEn[lang].about_me;
-    introduction.textContent = ruEn[lang].introduction;
-    projectsTitle.textContent = ruEn[lang].projects_title;
-    certificatesTitle.textContent = ruEn[lang].certificates_title;
-    contactBoxTitle.textContent = ruEn[lang].contact_box_title;
-    sendButton.textContent = ruEn[lang].send_button;
-    contactBoxName.placeholder = ruEn[lang].contact_box_name;
-    contactBoxEmail.placeholder = ruEn[lang].contact_box_email;
-    contactBoxMessage.placeholder = ruEn[lang].contact_box_message;
-  });
+  } else {
+    locale.classList.add("locale_active");
+    locale.lang = "ru";
+  }
+  const lang = locale.getAttribute("lang");
+
+  projects.textContent = ruEn[lang].projects;
+  certificates.textContent = ruEn[lang].certificates;
+  title.textContent = ruEn[lang].title;
+  name.textContent = ruEn[lang].name;
+  profession.textContent = ruEn[lang].profession;
+  aboutMe.textContent = ruEn[lang].about_me;
+  aboutMe2.textContent = ruEn[lang].about_me;
+  introduction.textContent = ruEn[lang].introduction;
+  projectsTitle.textContent = ruEn[lang].projects_title;
+  certificatesTitle.textContent = ruEn[lang].certificates_title;
+  contactBoxTitle.textContent = ruEn[lang].contact_box_title;
+  sendButton.textContent = ruEn[lang].send_button;
+  contactBoxName.placeholder = ruEn[lang].contact_box_name;
+  contactBoxEmail.placeholder = ruEn[lang].contact_box_email;
+  contactBoxMessage.placeholder = ruEn[lang].contact_box_message;
 }
