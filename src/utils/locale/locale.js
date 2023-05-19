@@ -21,11 +21,11 @@ export function locale() {
   if (locale.classList.contains("locale_active")) {
     locale.lang = "en";
     locale.classList.remove("locale_active");
-
   } else {
     locale.classList.add("locale_active");
     locale.lang = "ru";
   }
+
   const lang = locale.getAttribute("lang");
 
   projects.textContent = ruEn[lang].projects;
