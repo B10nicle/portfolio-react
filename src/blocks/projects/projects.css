@@ -1,7 +1,5 @@
-.projects__template {
+.projects {
   background-color: #dbdbdb;
-  flex-direction: column;
   text-align: center;
-  display: flex;
   padding: 10px;
 }

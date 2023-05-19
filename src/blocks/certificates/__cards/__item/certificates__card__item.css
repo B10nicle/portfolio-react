@@ -1,4 +1,4 @@
-.certificates__grid__item {
+.certificates__card__item {
   box-shadow: 5px 5px 20px rgb(197, 195, 195);
   object-fit: cover;
   border-radius: 5%;
@@ -7,6 +7,6 @@
   width: 100%;
 }
 
-.certificates__grid__item:hover {
+.certificates__card__item:hover {
   box-shadow: 5px 5px 20px rgba(48, 48, 48, 0.7);
 }

@@ -1,4 +1,4 @@
-.certificates__template {
+.certificates {
   background-color: #dbdbdb;
   padding: 80px 80px 0 80px;
   flex-direction: column;
@@ -7,13 +7,13 @@
 }
 
 @media screen and (max-width: 600px) {
-  .certificates__template {
+  .certificates {
     padding: 0 40px 0 40px;
   }
 }
 
 @media screen and (max-width: 450px) {
-  .certificates__template {
+  .certificates {
     padding: 0;
   }
 }

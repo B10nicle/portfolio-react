@@ -1,4 +1,4 @@
-.certificates__grid {
+.certificates__cards {
   padding: 0;
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
@@ -11,7 +11,7 @@
 }
 
 @media screen and (max-width: 1023px) {
-  .certificates__grid {
+  .certificates__cards {
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 20px;
     padding: 0 24px;
@@ -20,7 +20,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .certificates__grid {
+  .certificates__cards {
     grid-template-columns: repeat(1, 1fr);
     margin-bottom: 12px;
     padding: 0 16px;
