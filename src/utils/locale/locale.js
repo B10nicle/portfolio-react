@@ -3,27 +3,19 @@ import {ruEn} from "./ru-En";
 export function locale() {
   const title = document.querySelector(".myTitle");
   const projects = document.querySelector(".my-projects");
-  const certificates = document.querySelector(".my-certificates.js");
+  const certificates = document.querySelector(".my-certificates");
   const locale = document.querySelector(".locale");
   const name = document.querySelector(".hero-area__wrapper__name");
   const profession = document.querySelector(".hero-area__wrapper__profession");
   const aboutMe = document.querySelector(".hero-area__wrapper__button");
   const aboutMe2 = document.querySelector(".subsection__information__title");
-  const introduction = document.querySelector(
-    ".subsection__information__subtitle"
-  );
+  const introduction = document.querySelector(".subsection__information__subtitle");
   const projectsTitle = document.querySelector(".projects__title");
   const certificatesTitle = document.querySelector(".certificates__title");
   const contactBoxTitle = document.querySelector(".contact-box__title");
-  const contactBoxName = document.querySelector(
-    ".contact-box__field_type_name"
-  );
-  const contactBoxEmail = document.querySelector(
-    ".contact-box__field_type_email"
-  );
-  const contactBoxMessage = document.querySelector(
-    ".contact-box__field_type_message"
-  );
+  const contactBoxName = document.querySelector(".contact-box__field_type_name");
+  const contactBoxEmail = document.querySelector(".contact-box__field_type_email");
+  const contactBoxMessage = document.querySelector(".contact-box__field_type_message");
   const sendButton = document.querySelector(".send-button");
 
   locale.addEventListener("click", () => {

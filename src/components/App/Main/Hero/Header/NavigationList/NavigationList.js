@@ -1,25 +1,15 @@
 import React from "react";
 import {locale} from "../../../../../../utils/locale/locale";
+import {Link} from "react-scroll";
 
 function NavigationList() {
-  function handleClickProjects() {
-    window.location.href = '#projects';
-  }
-
-  function handleClickCertificates() {
-    window.location.href = '#certificates.js';
-  }
-
   return (
     <ul className="header__navigation-list">
-      <li className="header__navigation-list__item opacity my-projects"
-          onClick={handleClickProjects}>
-        <a>Projects</a>
-
+      <li className="header__navigation-list__item opacity my-projects">
+        <Link to="projects" smooth={true}>Projects</Link>
       </li>
-      <li className="header__navigation-list__item opacity my-certificates"
-          onClick={handleClickCertificates}>
-        <a>Certificates</a>
+      <li className="header__navigation-list__item opacity my-certificates">
+        <Link to="certificates" smooth={true}>Certificates</Link>
       </li>
       <li className="link">
         <button

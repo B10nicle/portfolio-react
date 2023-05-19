@@ -12,7 +12,7 @@ export default function Certificates() {
   }
 
   return (
-    <section className="certificates" id="certificates">
+    <section className="certificates">
       <h2 className="certificates__title title">Certificates</h2>
       <ul className="certificates__cards" aria-label="Certificates">
         {certificates.map((card, index) => {

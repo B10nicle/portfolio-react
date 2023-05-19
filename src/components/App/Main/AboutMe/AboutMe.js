@@ -4,7 +4,7 @@ import headshot from "../../../../images/headshot.jpeg";
 function AboutMe() {
 
   return (
-    <section className="subsection" id="about-me">
+    <section className="subsection about-me">
       <div className="subsection__information">
         <h2 className="subsection__information__title title">About Me</h2>
         <p className="subsection__information__subtitle">

@@ -12,7 +12,7 @@ export default function Projects() {
   }
 
   return (
-    <section className="projects" id="projects">
+    <section className="projects">
       <h2 className="projects__title title">Projects</h2>
       <ul className="projects__project-container" aria-label="Projects">
         {projects.map((card, index) => {
