@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: "JavaRush Internship Task Autumn 2022",
-    subtitle: "This is a task for JavaRush Internship which was made by me",
+    subtitle: "This is a task for JavaRush Internship Autumn 2022",
     image: require("../images/projects/project-1.png"),
     link: "https://github.com/B10nicle/javarush-internship-task"
   },
@@ -82,5 +82,26 @@ export const projects = [
     subtitle: "This is my homework for Front End Development Libraries course at freeCodeCamp.com",
     image: require("../images/projects/project-14.png"),
     link: "https://github.com/B10nicle/random-quote-machine"
+  },
+
+  {
+    title: "Yandex Practicum: Share It",
+    subtitle: "A simple app which helps you to share things with your friends",
+    image: require("../images/projects/project-15.png"),
+    link: "https://github.com/B10nicle/java-shareit"
+  },
+
+  {
+    title: "Yandex Practicum: Explore With Me",
+    subtitle: "Final project from Java Developer course in Yandex Practicum",
+    image: require("../images/projects/project-16.png"),
+    link: "https://github.com/B10nicle/java-explore-with-me"
+  },
+
+  {
+    title: "Yandex Academy Task Summer 2023",
+    subtitle: "This is the second task of Yandex Academy Summer 2023",
+    image: require("../images/projects/project-17.png"),
+    link: "https://github.com/B10nicle/yandex-academy-2023"
   },
 ];
