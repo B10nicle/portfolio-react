@@ -223,4 +223,20 @@ export const certificates = [
     title: "ReactJS for Beginners",
     image: require("../images/certificates/certificate-56.png")
   },
+  {
+    title: "Yandex algorithms div B",
+    image: require("../images/certificates/certificate-57.png")
+  },
+  {
+    title: "Yandex algorithms div A",
+    image: require("../images/certificates/certificate-58.png")
+  },
+  {
+    title: "Java Developer Professional Training Course",
+    image: require("../images/certificates/certificate-59.png")
+  },
+  {
+    title: "Not so easy numbers",
+    image: require("../images/certificates/certificate-60.png")
+  },
 ];
