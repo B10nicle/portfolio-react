@@ -1,0 +1,39 @@
+.zoom__container {
+  box-shadow: 0 0 25px rgb(0 0 0.15);
+  background-color: #ffffff;
+  box-sizing: border-box;
+  align-items: center;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  height: 600px;
+  width: 800px;
+}
+
+@media screen and (max-width: 1279px) {
+  .zoom__container {
+    height: 500px;
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .zoom__container {
+    height: 400px;
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .zoom__container {
+    height: 200px;
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .zoom__container {
+    height: 100px;
+    width: 300px;
+  }
+}

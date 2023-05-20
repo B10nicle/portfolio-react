@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import logo from "../../../../../../images/logo.png";
-import Popup from "../../../Popup/Popup";
+import Popup from "../../../Hero/Header/Logo/Popup/Popup";
 
 export default function Logo() {
   const [isPopupOpen, setPopupOpen] = useState(false);

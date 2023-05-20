@@ -1,5 +1,5 @@
 import React from "react";
-import certificates from "../../../../utils/certificates";
+import {certificates} from "../../../../utils/certificates";
 import Certificate from "./Certificate/Certificate";
 
 export default function Certificates() {

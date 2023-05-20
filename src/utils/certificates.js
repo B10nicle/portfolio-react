@@ -1,4 +1,4 @@
-const certificates = [
+export const certificates = [
   {
     title: "Web Development Fundamentals",
     image: require("../images/certificates/certificate-1.png")
@@ -224,5 +224,3 @@ const certificates = [
     image: require("../images/certificates/certificate-56.png")
   },
 ];
-
-export default certificates;

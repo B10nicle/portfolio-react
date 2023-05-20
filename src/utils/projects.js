@@ -1,4 +1,4 @@
-const projects = [
+export const projects = [
   {
     title: "JavaRush Internship Task Autumn 2022",
     subtitle: "This is a task for JavaRush Internship which was made by me",
@@ -84,5 +84,3 @@ const projects = [
     link: "https://github.com/B10nicle/random-quote-machine"
   },
 ];
-
-export default projects;

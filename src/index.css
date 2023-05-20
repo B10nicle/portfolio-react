@@ -70,8 +70,13 @@
 @import url(../src/blocks/popup/__container/__close-button/popup__container__close-button.css);
 @import url(../src/blocks/popup/__container/__title/popup__container__title.css);
 @import url(../src/blocks/popup/__container/__subtitle/popup__container__subtitle.css);
-@import url(../src/blocks/popup/__container/__cows/popup__container__cows.css);
+@import url(../src/blocks/popup/__container/__image/popup__container__image.css);
 @import url(../src/blocks/popup/__container/__wrapper/popup__container__wrapper.css);
+
+/* zoom */
+@import url(../src/blocks/zoom/zoom.css);
+@import url(../src/blocks/zoom/__container/zoom__container.css);
+@import url(../src/blocks/zoom/__container/__image/zoom__container__image.css);
 
 /* locale */
 @import url(../src/blocks/locale/locale.css);

@@ -1,0 +1,14 @@
+.zoom {
+  background-color: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  box-sizing: border-box;
+  align-items: center;
+  overflow: hidden;
+  position: fixed;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}

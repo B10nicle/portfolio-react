@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-import cows from "../../../../images/cows.png";
+import cows from "../../../../../../../images/cows.png";
 
 export default function Popup({onClose}) {
   const handleClose = () => onClose();
@@ -28,7 +28,7 @@ export default function Popup({onClose}) {
           type="button"
         />
         <img
-          className="popup__container__cows"
+          className="popup__container__image"
           src={cows}
           alt="cows"
         />
