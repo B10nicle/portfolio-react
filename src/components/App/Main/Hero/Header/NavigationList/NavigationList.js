@@ -2,7 +2,7 @@ import React from "react";
 import {locale} from "../../../../../../utils/locale/locale";
 import {Link} from "react-scroll";
 
-function NavigationList() {
+export default function NavigationList() {
   return (
     <ul className="header__navigation-list">
       <li className="header__navigation-list__item opacity my-projects">
@@ -21,5 +21,3 @@ function NavigationList() {
     </ul>
   );
 }
-
-export default NavigationList;

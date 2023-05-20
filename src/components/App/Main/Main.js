@@ -4,9 +4,8 @@ import AboutMe from "./AboutMe/AboutMe";
 import Projects from "./Projects/Projects";
 import Certificates from "./Certificates/Certificates";
 import Footer from "./Footer/Footer";
-import Popup from "./Popup/Popup";
 
-function Main() {
+export default function Main() {
   return (
     <div className="main">
       <Hero/>
@@ -14,12 +13,6 @@ function Main() {
       <Projects/>
       <Certificates/>
       <Footer/>
-      <Popup/>
     </div>
   );
 }
-
-export default Main;
-
-
-

@@ -2,8 +2,7 @@ import React from "react";
 import Header from "./Header/Header";
 import HeroArea from "./HeroArea/HeroArea";
 
-function Hero() {
-
+export default function Hero() {
   return (
     <section className="hero">
       <Header/>
@@ -11,5 +10,3 @@ function Hero() {
     </section>
   );
 }
-
-export default Hero;

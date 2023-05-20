@@ -1,8 +1,7 @@
 import React from "react";
 import headshot from "../../../../images/headshot.jpeg";
 
-function AboutMe() {
-
+export default function AboutMe() {
   return (
     <section className="subsection about-me">
       <div className="subsection__information">
@@ -21,5 +20,3 @@ function AboutMe() {
     </section>
   );
 }
-
-export default AboutMe;

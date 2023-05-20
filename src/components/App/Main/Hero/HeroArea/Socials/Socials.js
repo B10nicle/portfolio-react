@@ -1,6 +1,6 @@
 import React from "react";
 
-function HeroAreaWrapper() {
+export default function HeroAreaWrapper() {
   function handleClickLeetCode() {
     window.open('https://leetcode.com/B10nicle');
   }
@@ -42,5 +42,3 @@ function HeroAreaWrapper() {
     </div>
   );
 }
-
-export default HeroAreaWrapper;

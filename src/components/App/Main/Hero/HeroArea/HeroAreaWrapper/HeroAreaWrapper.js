@@ -1,7 +1,7 @@
 import React from "react";
 import {Link} from "react-scroll";
 
-function HeroAreaWrapper() {
+export default function HeroAreaWrapper() {
   return (
     <div className="hero-area__wrapper">
       <h1 className="hero-area__wrapper__name">Oleg Khilko</h1>
@@ -12,5 +12,3 @@ function HeroAreaWrapper() {
     </div>
   );
 }
-
-export default HeroAreaWrapper;

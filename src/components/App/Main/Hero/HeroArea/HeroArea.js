@@ -2,7 +2,7 @@ import React from "react";
 import HeroAreaWrapper from "./HeroAreaWrapper/HeroAreaWrapper";
 import Socials from "./Socials/Socials";
 
-function HeroArea() {
+export default function HeroArea() {
   return (
     <div className="hero-area">
       <HeroAreaWrapper/>
@@ -10,5 +10,3 @@ function HeroArea() {
     </div>
   );
 }
-
-export default HeroArea;
