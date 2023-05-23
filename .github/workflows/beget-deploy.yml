@@ -1,0 +1,28 @@
+name: Beget Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      # Setup key
+      - run: set -eu
+      - run: mkdir "$HOME/.ssh"
+      - run: echo "$" > "$HOME/.ssh/KEY"
+      - run: chmod 600 "$HOME/.ssh/KEY"
+
+      # Build
+      - run: npm ci
+      - run: npm run build
+
+      # Deploy
+      - run: ssh khilkons@khilkons.beget.tech
+      - run: git pull origin gh-pages
