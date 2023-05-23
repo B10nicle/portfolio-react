@@ -1,0 +1,11 @@
+host='beget'
+path='oleg-khilko.ru/public_html'
+
+[deploy:local]
+git push origin main
+
+[deploy]
+git pull origin gh-pages
+
+[status]
+uptime
