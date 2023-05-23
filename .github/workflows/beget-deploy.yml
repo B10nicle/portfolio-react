@@ -16,9 +16,9 @@ jobs:
       - name: Configure SSH
         run: |
           mkdir -p ~/.ssh/
-          echo "$KEY" > ~/.ssh/beget.key
+          echo "$SSH_KEY" > ~/.ssh/beget.key
           chmod 600 ~/.ssh/beget.key
-          cat >>~/.ssh/config <<END
+          echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
 
       - name: Build
         run: |
