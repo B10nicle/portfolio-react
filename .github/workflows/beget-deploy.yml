@@ -18,7 +18,6 @@ jobs:
           mkdir -p ~/.ssh/
           echo "$SSH_KEY" > ~/.ssh/beget.key
           chmod 600 ~/.ssh/beget.key
-          echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts/
 
       - name: Build
         run: |
