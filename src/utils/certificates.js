@@ -239,4 +239,8 @@ export const certificates = [
     title: "Not so easy numbers",
     image: require("../images/certificates/certificate-60.png")
   },
+  {
+    title: "Build Animated Physics Game with JavaScript",
+    image: require("../images/certificates/certificate-61.png")
+  },
 ];

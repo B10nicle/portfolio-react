@@ -83,25 +83,28 @@ export const projects = [
     image: require("../images/projects/project-14.png"),
     link: "https://github.com/B10nicle/random-quote-machine"
   },
-
   {
     title: "Yandex Practicum: Share It",
     subtitle: "A simple app which helps you to share things with your friends",
     image: require("../images/projects/project-15.png"),
     link: "https://github.com/B10nicle/java-shareit"
   },
-
   {
     title: "Yandex Practicum: Explore With Me",
     subtitle: "Final project from Java Developer course in Yandex Practicum",
     image: require("../images/projects/project-16.png"),
     link: "https://github.com/B10nicle/java-explore-with-me"
   },
-
   {
     title: "Yandex Academy Task Summer 2023",
     subtitle: "This is the second task of Yandex Academy Summer 2023",
     image: require("../images/projects/project-17.png"),
     link: "https://github.com/B10nicle/yandex-academy-2023"
+  },
+  {
+    title: "Monster Forest Game",
+    subtitle: "Brilliant game made in Vanilla JS. Thank you Frank from Frank's Laboratory for this awesome course",
+    image: require("../images/projects/project-18.png"),
+    link: "https://github.com/B10nicle/monster-forest-game"
   },
 ];
