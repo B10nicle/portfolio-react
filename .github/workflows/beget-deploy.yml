@@ -1,4 +1,4 @@
-name: Beget Deploy
+name: CI
 
 on:
   push:
@@ -10,19 +10,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+      - name: Configure SSH
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$KEY" > ~/.ssh/beget.key
+          chmod 600 ~/.ssh/beget.key
+          cat >>~/.ssh/config <<END
 
-      # Setup key
-      - run: set -eu
-      - run: mkdir "$HOME/.ssh"
-      - run: echo "$" > "$HOME/.ssh/KEY"
-      - run: chmod 600 "$HOME/.ssh/KEY"
+      - name: Build
+        run: |
+          npm ci
+          npm run build
 
-      # Build
-      - run: npm ci
-      - run: npm run build
-
-      # Deploy
-      - run: ssh khilkons@khilkons.beget.tech
-      - run: git pull origin gh-pages
+      - name: Deploy
+        run: rsync -e "ssh -p 20022 -i ~/.ssh/KEY -o StrictHostKeyChecking=no" --archive --compress --delete . khilkons@khilkons.beget.tech:/home/k/khilkons/oleg-khilko.ru/public_html
