@@ -26,4 +26,4 @@ jobs:
           npm run build
 
       - name: Deploy
-        run: rsync -e "ssh -p 20022 -i ~/.ssh/beget.key -o StrictHostKeyChecking=no" --archive --compress --delete . khilkons@khilkons.beget.tech:/home/k/khilkons/oleg-khilko.ru/public_html
+        run: rsync -e "ssh -p 22 -i ~/.ssh/beget.key -o StrictHostKeyChecking=no" --archive --compress --delete . khilkons@khilkons.beget.tech:/home/k/khilkons/oleg-khilko.ru/public_html
