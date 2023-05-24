@@ -107,4 +107,10 @@ export const projects = [
     image: require("../images/projects/project-18.png"),
     link: "https://github.com/B10nicle/monster-forest-game"
   },
+  {
+    title: "Login and Registration",
+    subtitle: "Special thanks to Codehal for this awesome design and template!",
+    image: require("../images/projects/project-19.png"),
+    link: "https://github.com/B10nicle/login-registration"
+  },
 ];

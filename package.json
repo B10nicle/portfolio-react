@@ -41,7 +41,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://oleg-khilko.ru/",
+  "homepage": ".",
   "devDependencies": {
     "eslint": "^8.40.0",
     "eslint-plugin-react": "^7.20.0"
