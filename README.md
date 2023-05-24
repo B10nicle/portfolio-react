@@ -1,1 +1,1 @@
-## time to react this fucking porfolio!
+## My portfolio in React
